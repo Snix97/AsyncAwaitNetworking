@@ -6,41 +6,46 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		528932D02D76098F00CB17CD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 528932CF2D76098F00CB17CD /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
-		5289327D2D7605AA00CB17CD /* PBXContainerItemProxy */ = {
+		528932B32D76096800CB17CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 528932642D7605A500CB17CD /* Project object */;
+			containerPortal = 5289329A2D76096400CB17CD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5289326B2D7605A500CB17CD;
+			remoteGlobalIDString = 528932A12D76096400CB17CD;
 			remoteInfo = NetworkingAsyncAwait;
 		};
-		528932872D7605AA00CB17CD /* PBXContainerItemProxy */ = {
+		528932BD2D76096800CB17CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 528932642D7605A500CB17CD /* Project object */;
+			containerPortal = 5289329A2D76096400CB17CD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5289326B2D7605A500CB17CD;
+			remoteGlobalIDString = 528932A12D76096400CB17CD;
 			remoteInfo = NetworkingAsyncAwait;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5289326C2D7605A500CB17CD /* NetworkingAsyncAwait.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkingAsyncAwait.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5289327C2D7605AA00CB17CD /* NetworkingAsyncAwaitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkingAsyncAwaitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		528932862D7605AA00CB17CD /* NetworkingAsyncAwaitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkingAsyncAwaitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		528932A22D76096400CB17CD /* NetworkingAsyncAwait.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkingAsyncAwait.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		528932B22D76096800CB17CD /* NetworkingAsyncAwaitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkingAsyncAwaitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		528932BC2D76096800CB17CD /* NetworkingAsyncAwaitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkingAsyncAwaitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		528932CF2D76098F00CB17CD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		5289326E2D7605A500CB17CD /* NetworkingAsyncAwait */ = {
+		528932A42D76096400CB17CD /* NetworkingAsyncAwait */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = NetworkingAsyncAwait;
 			sourceTree = "<group>";
 		};
-		5289327F2D7605AA00CB17CD /* NetworkingAsyncAwaitTests */ = {
+		528932B52D76096800CB17CD /* NetworkingAsyncAwaitTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = NetworkingAsyncAwaitTests;
 			sourceTree = "<group>";
 		};
-		528932892D7605AA00CB17CD /* NetworkingAsyncAwaitUITests */ = {
+		528932BF2D76096800CB17CD /* NetworkingAsyncAwaitUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = NetworkingAsyncAwaitUITests;
 			sourceTree = "<group>";
@@ -48,21 +53,21 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		528932692D7605A500CB17CD /* Frameworks */ = {
+		5289329F2D76096400CB17CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		528932792D7605AA00CB17CD /* Frameworks */ = {
+		528932AF2D76096800CB17CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		528932832D7605AA00CB17CD /* Frameworks */ = {
+		528932B92D76096800CB17CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,22 +77,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		528932632D7605A500CB17CD = {
+		528932992D76096400CB17CD = {
 			isa = PBXGroup;
 			children = (
-				5289326E2D7605A500CB17CD /* NetworkingAsyncAwait */,
-				5289327F2D7605AA00CB17CD /* NetworkingAsyncAwaitTests */,
-				528932892D7605AA00CB17CD /* NetworkingAsyncAwaitUITests */,
-				5289326D2D7605A500CB17CD /* Products */,
+				528932CF2D76098F00CB17CD /* README.md */,
+				528932A42D76096400CB17CD /* NetworkingAsyncAwait */,
+				528932B52D76096800CB17CD /* NetworkingAsyncAwaitTests */,
+				528932BF2D76096800CB17CD /* NetworkingAsyncAwaitUITests */,
+				528932A32D76096400CB17CD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5289326D2D7605A500CB17CD /* Products */ = {
+		528932A32D76096400CB17CD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5289326C2D7605A500CB17CD /* NetworkingAsyncAwait.app */,
-				5289327C2D7605AA00CB17CD /* NetworkingAsyncAwaitTests.xctest */,
-				528932862D7605AA00CB17CD /* NetworkingAsyncAwaitUITests.xctest */,
+				528932A22D76096400CB17CD /* NetworkingAsyncAwait.app */,
+				528932B22D76096800CB17CD /* NetworkingAsyncAwaitTests.xctest */,
+				528932BC2D76096800CB17CD /* NetworkingAsyncAwaitUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,134 +101,135 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5289326B2D7605A500CB17CD /* NetworkingAsyncAwait */ = {
+		528932A12D76096400CB17CD /* NetworkingAsyncAwait */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 528932902D7605AA00CB17CD /* Build configuration list for PBXNativeTarget "NetworkingAsyncAwait" */;
+			buildConfigurationList = 528932C62D76096800CB17CD /* Build configuration list for PBXNativeTarget "NetworkingAsyncAwait" */;
 			buildPhases = (
-				528932682D7605A500CB17CD /* Sources */,
-				528932692D7605A500CB17CD /* Frameworks */,
-				5289326A2D7605A500CB17CD /* Resources */,
+				5289329E2D76096400CB17CD /* Sources */,
+				5289329F2D76096400CB17CD /* Frameworks */,
+				528932A02D76096400CB17CD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				5289326E2D7605A500CB17CD /* NetworkingAsyncAwait */,
+				528932A42D76096400CB17CD /* NetworkingAsyncAwait */,
 			);
 			name = NetworkingAsyncAwait;
 			packageProductDependencies = (
 			);
 			productName = NetworkingAsyncAwait;
-			productReference = 5289326C2D7605A500CB17CD /* NetworkingAsyncAwait.app */;
+			productReference = 528932A22D76096400CB17CD /* NetworkingAsyncAwait.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5289327B2D7605AA00CB17CD /* NetworkingAsyncAwaitTests */ = {
+		528932B12D76096800CB17CD /* NetworkingAsyncAwaitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 528932932D7605AA00CB17CD /* Build configuration list for PBXNativeTarget "NetworkingAsyncAwaitTests" */;
+			buildConfigurationList = 528932C92D76096800CB17CD /* Build configuration list for PBXNativeTarget "NetworkingAsyncAwaitTests" */;
 			buildPhases = (
-				528932782D7605AA00CB17CD /* Sources */,
-				528932792D7605AA00CB17CD /* Frameworks */,
-				5289327A2D7605AA00CB17CD /* Resources */,
+				528932AE2D76096800CB17CD /* Sources */,
+				528932AF2D76096800CB17CD /* Frameworks */,
+				528932B02D76096800CB17CD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5289327E2D7605AA00CB17CD /* PBXTargetDependency */,
+				528932B42D76096800CB17CD /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				5289327F2D7605AA00CB17CD /* NetworkingAsyncAwaitTests */,
+				528932B52D76096800CB17CD /* NetworkingAsyncAwaitTests */,
 			);
 			name = NetworkingAsyncAwaitTests;
 			packageProductDependencies = (
 			);
 			productName = NetworkingAsyncAwaitTests;
-			productReference = 5289327C2D7605AA00CB17CD /* NetworkingAsyncAwaitTests.xctest */;
+			productReference = 528932B22D76096800CB17CD /* NetworkingAsyncAwaitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		528932852D7605AA00CB17CD /* NetworkingAsyncAwaitUITests */ = {
+		528932BB2D76096800CB17CD /* NetworkingAsyncAwaitUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 528932962D7605AA00CB17CD /* Build configuration list for PBXNativeTarget "NetworkingAsyncAwaitUITests" */;
+			buildConfigurationList = 528932CC2D76096800CB17CD /* Build configuration list for PBXNativeTarget "NetworkingAsyncAwaitUITests" */;
 			buildPhases = (
-				528932822D7605AA00CB17CD /* Sources */,
-				528932832D7605AA00CB17CD /* Frameworks */,
-				528932842D7605AA00CB17CD /* Resources */,
+				528932B82D76096800CB17CD /* Sources */,
+				528932B92D76096800CB17CD /* Frameworks */,
+				528932BA2D76096800CB17CD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				528932882D7605AA00CB17CD /* PBXTargetDependency */,
+				528932BE2D76096800CB17CD /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				528932892D7605AA00CB17CD /* NetworkingAsyncAwaitUITests */,
+				528932BF2D76096800CB17CD /* NetworkingAsyncAwaitUITests */,
 			);
 			name = NetworkingAsyncAwaitUITests;
 			packageProductDependencies = (
 			);
 			productName = NetworkingAsyncAwaitUITests;
-			productReference = 528932862D7605AA00CB17CD /* NetworkingAsyncAwaitUITests.xctest */;
+			productReference = 528932BC2D76096800CB17CD /* NetworkingAsyncAwaitUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		528932642D7605A500CB17CD /* Project object */ = {
+		5289329A2D76096400CB17CD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					5289326B2D7605A500CB17CD = {
+					528932A12D76096400CB17CD = {
 						CreatedOnToolsVersion = 16.2;
 					};
-					5289327B2D7605AA00CB17CD = {
+					528932B12D76096800CB17CD = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 5289326B2D7605A500CB17CD;
+						TestTargetID = 528932A12D76096400CB17CD;
 					};
-					528932852D7605AA00CB17CD = {
+					528932BB2D76096800CB17CD = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 5289326B2D7605A500CB17CD;
+						TestTargetID = 528932A12D76096400CB17CD;
 					};
 				};
 			};
-			buildConfigurationList = 528932672D7605A500CB17CD /* Build configuration list for PBXProject "NetworkingAsyncAwait" */;
+			buildConfigurationList = 5289329D2D76096400CB17CD /* Build configuration list for PBXProject "NetworkingAsyncAwait" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 528932632D7605A500CB17CD;
+			mainGroup = 528932992D76096400CB17CD;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 5289326D2D7605A500CB17CD /* Products */;
+			productRefGroup = 528932A32D76096400CB17CD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5289326B2D7605A500CB17CD /* NetworkingAsyncAwait */,
-				5289327B2D7605AA00CB17CD /* NetworkingAsyncAwaitTests */,
-				528932852D7605AA00CB17CD /* NetworkingAsyncAwaitUITests */,
+				528932A12D76096400CB17CD /* NetworkingAsyncAwait */,
+				528932B12D76096800CB17CD /* NetworkingAsyncAwaitTests */,
+				528932BB2D76096800CB17CD /* NetworkingAsyncAwaitUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5289326A2D7605A500CB17CD /* Resources */ = {
+		528932A02D76096400CB17CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528932D02D76098F00CB17CD /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528932B02D76096800CB17CD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5289327A2D7605AA00CB17CD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		528932842D7605AA00CB17CD /* Resources */ = {
+		528932BA2D76096800CB17CD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +239,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		528932682D7605A500CB17CD /* Sources */ = {
+		5289329E2D76096400CB17CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		528932782D7605AA00CB17CD /* Sources */ = {
+		528932AE2D76096800CB17CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		528932822D7605AA00CB17CD /* Sources */ = {
+		528932B82D76096800CB17CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,20 +263,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5289327E2D7605AA00CB17CD /* PBXTargetDependency */ = {
+		528932B42D76096800CB17CD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5289326B2D7605A500CB17CD /* NetworkingAsyncAwait */;
-			targetProxy = 5289327D2D7605AA00CB17CD /* PBXContainerItemProxy */;
+			target = 528932A12D76096400CB17CD /* NetworkingAsyncAwait */;
+			targetProxy = 528932B32D76096800CB17CD /* PBXContainerItemProxy */;
 		};
-		528932882D7605AA00CB17CD /* PBXTargetDependency */ = {
+		528932BE2D76096800CB17CD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5289326B2D7605A500CB17CD /* NetworkingAsyncAwait */;
-			targetProxy = 528932872D7605AA00CB17CD /* PBXContainerItemProxy */;
+			target = 528932A12D76096400CB17CD /* NetworkingAsyncAwait */;
+			targetProxy = 528932BD2D76096800CB17CD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5289328E2D7605AA00CB17CD /* Debug */ = {
+		528932C42D76096800CB17CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -332,7 +339,7 @@
 			};
 			name = Debug;
 		};
-		5289328F2D7605AA00CB17CD /* Release */ = {
+		528932C52D76096800CB17CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -388,7 +395,7 @@
 			};
 			name = Release;
 		};
-		528932912D7605AA00CB17CD /* Debug */ = {
+		528932C72D76096800CB17CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -417,7 +424,7 @@
 			};
 			name = Debug;
 		};
-		528932922D7605AA00CB17CD /* Release */ = {
+		528932C82D76096800CB17CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -446,7 +453,7 @@
 			};
 			name = Release;
 		};
-		528932942D7605AA00CB17CD /* Debug */ = {
+		528932CA2D76096800CB17CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -465,7 +472,7 @@
 			};
 			name = Debug;
 		};
-		528932952D7605AA00CB17CD /* Release */ = {
+		528932CB2D76096800CB17CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,7 +491,7 @@
 			};
 			name = Release;
 		};
-		528932972D7605AA00CB17CD /* Debug */ = {
+		528932CD2D76096800CB17CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -501,7 +508,7 @@
 			};
 			name = Debug;
 		};
-		528932982D7605AA00CB17CD /* Release */ = {
+		528932CE2D76096800CB17CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -521,43 +528,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		528932672D7605A500CB17CD /* Build configuration list for PBXProject "NetworkingAsyncAwait" */ = {
+		5289329D2D76096400CB17CD /* Build configuration list for PBXProject "NetworkingAsyncAwait" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5289328E2D7605AA00CB17CD /* Debug */,
-				5289328F2D7605AA00CB17CD /* Release */,
+				528932C42D76096800CB17CD /* Debug */,
+				528932C52D76096800CB17CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		528932902D7605AA00CB17CD /* Build configuration list for PBXNativeTarget "NetworkingAsyncAwait" */ = {
+		528932C62D76096800CB17CD /* Build configuration list for PBXNativeTarget "NetworkingAsyncAwait" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				528932912D7605AA00CB17CD /* Debug */,
-				528932922D7605AA00CB17CD /* Release */,
+				528932C72D76096800CB17CD /* Debug */,
+				528932C82D76096800CB17CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		528932932D7605AA00CB17CD /* Build configuration list for PBXNativeTarget "NetworkingAsyncAwaitTests" */ = {
+		528932C92D76096800CB17CD /* Build configuration list for PBXNativeTarget "NetworkingAsyncAwaitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				528932942D7605AA00CB17CD /* Debug */,
-				528932952D7605AA00CB17CD /* Release */,
+				528932CA2D76096800CB17CD /* Debug */,
+				528932CB2D76096800CB17CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		528932962D7605AA00CB17CD /* Build configuration list for PBXNativeTarget "NetworkingAsyncAwaitUITests" */ = {
+		528932CC2D76096800CB17CD /* Build configuration list for PBXNativeTarget "NetworkingAsyncAwaitUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				528932972D7605AA00CB17CD /* Debug */,
-				528932982D7605AA00CB17CD /* Release */,
+				528932CD2D76096800CB17CD /* Debug */,
+				528932CE2D76096800CB17CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 528932642D7605A500CB17CD /* Project object */;
+	rootObject = 5289329A2D76096400CB17CD /* Project object */;
 }
